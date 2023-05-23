@@ -1,0 +1,17 @@
+.learn-more {
+    background-image: url('https://cdn.shopify.com/s/files/1/0263/8469/5395/files/5_September_-_New_Buyers_Guide_Homepage_banner_92d19c5c-5cad-473c-a127-0b174e7debe3_1500x.jpg?v=1662370209)');
+    padding: 165px 0;
+    background-size: cover;
+    border-radius: 5px;
+}
+.learn-more button {
+    /* dsfs */
+    display: block;
+    margin: 0 auto;
+    width: 185px;
+    background: #2765f5;
+    border: none;
+    border-radius: 2px;
+    height: 50px;
+    font-weight: 500;
+}

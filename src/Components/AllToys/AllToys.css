@@ -1,0 +1,23 @@
+.table-header{}
+.toy-details-btn {
+    background: #3c92c1e0;
+    border: none;
+    width: 120px;
+    border-radius: 0;
+    position: relative;
+    top: 10px;
+    color: rgb(233, 233, 233);
+    transition: .3s;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 7px;
+}
+.toy-details-btn:hover{
+    background: #59B747;
+    color: white;
+}
+.toy-table{}
+tbody, td, tfoot, th, thead, tr{
+    padding: 20px;
+}

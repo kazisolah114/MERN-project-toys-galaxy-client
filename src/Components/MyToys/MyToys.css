@@ -1,0 +1,26 @@
+.update-btn {
+    background: #f9e838;
+    padding: 8px 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 2;
+}
+.update-btn:hover{
+    background-color: rgb(255, 239, 60);
+    color: black;
+}
+.delete-btn {
+    background: #ff4242d9;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    transition: 5.s;
+}
+.delete-btn:hover{
+    background-color: #ff4242f5;
+    color: white;
+}

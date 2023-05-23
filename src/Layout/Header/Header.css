@@ -1,0 +1,33 @@
+.web-header{
+    background-color: black;
+}
+.main-header{}
+.header-menu a {
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 15px;
+    color: #d5d5d5;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.header-menu a:hover{
+    color: #59B747;
+}
+.header-btn {
+    font-size: 15px;
+    text-decoration: none;
+    background: #59B747;
+    display: block;
+    width: 110px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+}
+.header-btn:hover{
+    color: #fff;
+}
+.user-profile {
+    width: 40px;
+    border-radius: 50px;
+}

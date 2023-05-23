@@ -1,0 +1,46 @@
+.form-data{}
+.form-data h2{}
+.form-data form {
+    width: 60%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.form-data form input {
+    width: 47%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #8080803d;
+    padding: 10px;
+    margin-right: 23px;
+    margin-top: 20px;
+    outline: none;
+}
+.react-select {
+    width: 47%;
+    border: 1px solid #8080803d;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 23px;
+}
+.form-data form textarea {
+    width: 97%;
+    height: 110px;
+    border: 2px solid #8080803d;
+    border-radius: 5px;
+    margin-top: 30px;
+    outline: none;
+    padding: 10px;
+    resize: none;
+}
+.form-data form input[type="submit"] {
+    width: 97%;
+    background: #59B747;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    transition: .4s;
+}
+.form-data form input[type="submit"]:hover{
+    background: #111;
+}

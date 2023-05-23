@@ -1,0 +1,7 @@
+.toy-info{}
+.toy-info p{}
+.toy-info p span {
+    font-weight: bold;
+    color: #484848;
+    font-size: 14px;
+}
