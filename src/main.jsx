@@ -42,22 +42,22 @@ const router = createBrowserRouter([
   {
     path: 'alltoys',
     element: <AllToys></AllToys>,
-    loader: () => fetch('http://localhost:5000/alltoys')
+    loader: () => fetch('https://toys-beast-server-kazisolah114.vercel.app/alltoys')
   },
   {
     path: 'alltoys/:id',
     element: <ToyDetails />,
-    loader: ({params}) => fetch(`http://localhost:5000/alltoys/${params.id}`)
+    loader: ({params}) => fetch(`https://toys-beast-server-kazisolah114.vercel.app/${params.id}`)
   },
   {
     path: 'mytoys',
     element: <MyToys></MyToys>,
-    loader: () => fetch('http://localhost:5000/mytoys')
+    loader: () => fetch('https://toys-beast-server-kazisolah114.vercel.app/mytoys')
   },
   {
     path: 'updatetoys/:id',
     element: <UpdateToy></UpdateToy>,
-    loader: ({params}) => fetch(`http://localhost:5000/mytoys/${params.id}`)
+    loader: ({params}) => fetch(`https://toys-beast-server-kazisolah114.vercel.app/${params.id}`)
   },
   {
     path: '*',

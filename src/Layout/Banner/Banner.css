@@ -58,3 +58,27 @@
     font-size: 12px;
     font-weight: 500;
 }
+
+
+/* Responsive */
+@media screen and (max-width: 668px) {
+    .web-header {
+        display: none;
+    }
+    .gallery {
+        grid-template-columns: repeat(2, 1fr)!important;
+    }
+    .gallery img {
+        width: 400px!important;
+        height: 385px!important;
+    }
+    .learn-more {
+        padding: 95px 0px;
+        width: 825px;
+
+    }
+    .sponsors-img {
+        display: grid!important;
+        grid-template-columns: auto auto auto auto;
+    }
+}

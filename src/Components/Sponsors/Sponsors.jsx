@@ -1,11 +1,12 @@
 import React from 'react';
+import './Sponsors.css'
 
 const Sponsors = () => {
     return (
-        <div className='my-5'>
+        <div className='my-5 sponsor'>
             <h2 className='text-center pt-5'>Products From
             </h2>
-            <div className=' d-flex align-items-center justify-content-between'>
+            <div className=' d-flex align-items-center justify-content-between sponsors-img'>
             <img src="//cdn.shopify.com/s/files/1/0263/8469/5395/files/ftx-6_200x.png?v=1614309478" alt="" />
             <img src="//cdn.shopify.com/s/files/1/0263/8469/5395/files/maverick-logo-png-6354060_200x.png?v=1649689377" alt="" />
             <img src="//cdn.shopify.com/s/files/1/0263/8469/5395/files/rcg-racing_68bb4e0f-dbc3-4a50-887c-d9bd7b33308a_200x.png?v=1655462202" alt="" />

@@ -31,7 +31,7 @@ const AddToys = () => {
         const description = form.description.value;
         const toysData = {name, imgURL, sellerName, email, price, rating, quantity, category, description}
         form.reset()
-        fetch('http://localhost:5000/addtoys', {
+        fetch('https://toys-beast-server-kazisolah114.vercel.app/addtoys', {
             method: "POST",
             headers: {
                 "content-type": "application/json"
