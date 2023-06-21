@@ -15,7 +15,7 @@ const AddToys = () => {
         { value: 'super', label: 'Super Car' },
     ];
     const [selectedOption, setSelectedOption] = useState(null);
-    // console.log(selectedOption)
+
 
     const handleAddToys = event => {
         event.preventDefault();
